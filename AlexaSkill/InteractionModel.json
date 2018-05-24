@@ -1,0 +1,1248 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "health buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "that's not correct",
+                        "incorrect",
+                        "cancel",
+                        "no wrong",
+                        "wrong",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "show me what you can do",
+                        "help",
+                        "how to use health buddy",
+                        "commands"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "close health buddy",
+                        "quit health buddy",
+                        "stop health buddy"
+                    ]
+                },
+                {
+                    "name": "StartRounding",
+                    "slots": [
+                        {
+                            "name": "questionOne",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "questionTwo",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "da_yi",
+                            "type": "ChineseNumbers"
+                        },
+                        {
+                            "name": "da_er",
+                            "type": "ChineseNumbers"
+                        }
+                    ],
+                    "samples": [
+                        "Start Rounding",
+                        "I want to do my rounding",
+                        "do my rounding now"
+                    ]
+                },
+                {
+                    "name": "WhosInWard",
+                    "slots": [
+                        {
+                            "name": "ward",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "retrieve patients from ward {ward}",
+                        "Whos in ward {ward} ",
+                        "whos in this ward"
+                    ]
+                },
+                {
+                    "name": "DeletePatientIntent",
+                    "slots": [
+                        {
+                            "name": "fullname",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.PhoneNumber"
+                        },
+                        {
+                            "name": "OneTimePinSlot",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        },
+                        {
+                            "name": "choice",
+                            "type": "Choice"
+                        }
+                    ],
+                    "samples": [
+                        "discharge patient",
+                        "remove account",
+                        "remove patient",
+                        "delete account",
+                        "delete patient"
+                    ]
+                },
+                {
+                    "name": "ChangeUserIntent",
+                    "slots": [],
+                    "samples": [
+                        "Sign Out",
+                        "Reset Session",
+                        "Change User"
+                    ]
+                },
+                {
+                    "name": "SignInIntent",
+                    "slots": [
+                        {
+                            "name": "fullname",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.PhoneNumber"
+                        },
+                        {
+                            "name": "choice",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "ZH_phoneNumber",
+                            "type": "ChineseNumbers"
+                        },
+                        {
+                            "name": "language",
+                            "type": "AMAZON.Language"
+                        }
+                    ],
+                    "samples": [
+                        "use my account",
+                        "Log in",
+                        "Sign In"
+                    ]
+                },
+                {
+                    "name": "AddPatientIntent",
+                    "slots": [
+                        {
+                            "name": "language",
+                            "type": "AMAZON.Language"
+                        },
+                        {
+                            "name": "fullname",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.PhoneNumber"
+                        },
+                        {
+                            "name": "ZH_phoneNumber",
+                            "type": "ChineseNumbers"
+                        }
+                    ],
+                    "samples": [
+                        "register ",
+                        "create account",
+                        "sign up",
+                        "add {fullname} to patient list",
+                        "Add Patient"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "Correct",
+                        "Go Ahead",
+                        "Ok",
+                        "Sure",
+                        "Yeap",
+                        "That's Right",
+                        "Yup",
+                        "Yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "Nah",
+                        "Nope",
+                        "No"
+                    ]
+                },
+                {
+                    "name": "DeviceSettingsIntent",
+                    "slots": [
+                        {
+                            "name": "choice",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "bed",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "ward",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "choiceTwo",
+                            "type": "Choice"
+                        }
+                    ],
+                    "samples": [
+                        "configure device",
+                        "Device Settings",
+                        "Show Device Settings",
+                        "View Device Settings",
+                        "Open Device Settings"
+                    ]
+                },
+                {
+                    "name": "ChineseStartRounding",
+                    "slots": [
+                        {
+                            "name": "da_yi",
+                            "type": "ChineseNumbers"
+                        },
+                        {
+                            "name": "da_er",
+                            "type": "ChineseNumbers"
+                        },
+                        {
+                            "name": "questionOne",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "questionTwo",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Kai si",
+                        "Kai Shi"
+                    ]
+                },
+                {
+                    "name": "UserSettingsIntent",
+                    "slots": [],
+                    "samples": [
+                        "view account details",
+                        "view my account settings",
+                        "view account settings",
+                        "open account settings",
+                        "account settings",
+                        "User Settings",
+                        "open user settings",
+                        "view my user settings",
+                        "view my settings"
+                    ]
+                },
+                {
+                    "name": "ChangeSettings",
+                    "slots": [
+                        {
+                            "name": "Type",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "DeviceSettings",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "ward",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "bed",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "choice",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "choiceTwo",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "DeviceSettingsTwo",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "UserSettings",
+                            "type": "UserSettings"
+                        },
+                        {
+                            "name": "newName",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        },
+                        {
+                            "name": "newNumber",
+                            "type": "AMAZON.PhoneNumber"
+                        },
+                        {
+                            "name": "newLanguage",
+                            "type": "AMAZON.Language"
+                        },
+                        {
+                            "name": "ZH_newNumber",
+                            "type": "ChineseNumbers"
+                        },
+                        {
+                            "name": "ZH_UserSettings",
+                            "type": "ChoiceZH"
+                        }
+                    ],
+                    "samples": [
+                        "Update my {UserSettings}",
+                        "Change my {UserSettings}",
+                        "Change {Type} Settings",
+                        "Update {Type} Settings",
+                        "Update Settings",
+                        "Change Settings"
+                    ]
+                },
+                {
+                    "name": "ReconfigureDevice",
+                    "slots": [
+                        {
+                            "name": "choice",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "choiceTwo",
+                            "type": "Choice"
+                        }
+                    ],
+                    "samples": [
+                        "reconfigure",
+                        "reset device",
+                        "Re configure device",
+                        "Reconfigure Device",
+                        "Re-Configure Device"
+                    ]
+                },
+                {
+                    "name": "TestIntent",
+                    "slots": [
+                        {
+                            "name": "testSlot",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Bring up the TEST"
+                    ]
+                },
+                {
+                    "name": "WhosInBed",
+                    "slots": [
+                        {
+                            "name": "wardNo",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "bedNo",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "who is in bed {bedNo} ward {wardNo}",
+                        "whos in bed {bedNo} ward {wardNo}",
+                        "whos in ward {wardNo} and bed {bedNo}",
+                        "who is in ward {wardNo} and bed {bedNo}",
+                        "who is in this bed",
+                        "who's in this bed",
+                        "whos in bed",
+                        "who is in bed",
+                        "who is in bed {bedNo}",
+                        "who is in ward {wardNo} bed {bedNo}",
+                        "whos in bed {bedNo}",
+                        "Whos in ward {wardNo} bed {bedNo}"
+                    ]
+                },
+                {
+                    "name": "LastRoundingIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is my previous rounding",
+                        "show me my previous rounding",
+                        "what are my answers last rounding",
+                        "show me my last rounding",
+                        "what is my last rounding",
+                        "bring up my last rounding"
+                    ]
+                },
+                {
+                    "name": "WhereAmI",
+                    "slots": [],
+                    "samples": [
+                        "where am i at",
+                        "where are we",
+                        "which bed and ward am i in",
+                        "tell me where i am",
+                        "which ward am i in",
+                        "which bed am i in",
+                        "Where am i in",
+                        "Where am I "
+                    ]
+                },
+                {
+                    "name": "FeedbackIntent",
+                    "slots": [
+                        {
+                            "name": "choice",
+                            "type": "Choice"
+                        },
+                        {
+                            "name": "speech",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "report something",
+                        "send report",
+                        "Give Feedback",
+                        "Send Support Ticket",
+                        "Create Support Ticket",
+                        "Send Feedback"
+                    ]
+                },
+                {
+                    "name": "ForgotAccount",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        },
+                        {
+                            "name": "number",
+                            "type": "AMAZON.PhoneNumber"
+                        },
+                        {
+                            "name": "userSettings",
+                            "type": "UserSettings"
+                        },
+                        {
+                            "name": "bedNo",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "wardNo",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "I forgot my {userSettings}",
+                        "forgot my account",
+                        "I forgot"
+                    ]
+                },
+                {
+                    "name": "MedicalConditionInfo",
+                    "slots": [
+                        {
+                            "name": "medicalCondition",
+                            "type": "MedicalConditions"
+                        }
+                    ],
+                    "samples": [
+                        "What is {medicalCondition}",
+                        "I want to know more about {medicalCondition}",
+                        "I want to find out more about {medicalCondition}",
+                        "Tell me more about {medicalCondition}",
+                        "Tell me about {medicalCondition}"
+                    ]
+                },
+                {
+                    "name": "EmergencyIntent",
+                    "slots": [],
+                    "samples": [
+                        "summon a doctor",
+                        "bring me a doctor",
+                        "bring medical attention",
+                        "i need medical attention",
+                        "i want medical attention",
+                        "someone help",
+                        "someone help me",
+                        "i need help",
+                        "call a doctor",
+                        "I need a doctor"
+                    ]
+                },
+                {
+                    "name": "RoundingSummary",
+                    "slots": [],
+                    "samples": [
+                        "view my rounding summary",
+                        "view my summary",
+                        "summarise my roundings",
+                        "view my rounding report"
+                    ]
+                },
+                {
+                    "name": "DietIntent",
+                    "slots": [
+                        {
+                            "name": "Diet",
+                            "type": "DietType"
+                        }
+                    ],
+                    "samples": [
+                        "change food",
+                        "change menu",
+                        "change my diet"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ChineseNumbers",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "0",
+                                "synonyms": [
+                                    "lin",
+                                    "ling"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "9",
+                                "synonyms": [
+                                    "chill",
+                                    "cio",
+                                    "chio",
+                                    "cho",
+                                    "jiu"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "8",
+                                "synonyms": [
+                                    "bhar",
+                                    "plah",
+                                    "blah",
+                                    "paa",
+                                    "baa",
+                                    "pla",
+                                    "bla",
+                                    "pa",
+                                    "ba"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "7",
+                                "synonyms": [
+                                    "ji",
+                                    "chi",
+                                    "qi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6",
+                                "synonyms": [
+                                    "leo",
+                                    "lu",
+                                    "liu"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5",
+                                "synonyms": [
+                                    "who",
+                                    "wu"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4",
+                                "synonyms": [
+                                    "shi",
+                                    "should",
+                                    "shoot",
+                                    "shoo",
+                                    "sit",
+                                    "she",
+                                    "sit",
+                                    "si"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3",
+                                "synonyms": [
+                                    "Sun",
+                                    "sang",
+                                    "shan",
+                                    "san"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2",
+                                "synonyms": [
+                                    "aer",
+                                    "lang",
+                                    "liang",
+                                    "err",
+                                    "er"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1",
+                                "synonyms": [
+                                    "yao",
+                                    "ee",
+                                    "yi"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AMAZON.Language",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "English",
+                                "synonyms": [
+                                    "in wen",
+                                    "yin wen",
+                                    "ying wen",
+                                    "ink yu",
+                                    "inn yu",
+                                    "in yu",
+                                    "ying yu",
+                                    "yin yu",
+                                    "english"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mandarin",
+                                "synonyms": [
+                                    "zoung wen",
+                                    "zon weng",
+                                    "zon wen",
+                                    "mandarin",
+                                    "zong wen",
+                                    "Chinese",
+                                    "hwa yu",
+                                    "hua yu",
+                                    "zhong hua",
+                                    "zhong wen"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Choice",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "account"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "reconfigure this device"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "change device settings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "change"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "settings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "reconfiguration"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "device settings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "user settings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "reconfigure device"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "re configure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "reconfigure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "user"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "device"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "No",
+                                "synonyms": [
+                                    "chore",
+                                    "cuo",
+                                    "bu",
+                                    "boo"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yes",
+                                "synonyms": [
+                                    "shi",
+                                    "dui"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "UserSettings",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "both"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Language Settings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Language"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Phone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Number"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Phone Number"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Name"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ChoiceZH",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "language",
+                                "synonyms": [
+                                    "yu yuan",
+                                    "yu yen",
+                                    "yu yan"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "phone",
+                                "synonyms": [
+                                    "haoma",
+                                    "dian hua hao ma",
+                                    "dianhua",
+                                    "dian hua"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "name",
+                                "synonyms": [
+                                    "xin ming",
+                                    "xing ming",
+                                    "xin min",
+                                    "xing min",
+                                    "mingzhi",
+                                    "minzi",
+                                    "min zi",
+                                    "ming zhi"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "MedicalConditions",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Arthritis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hypertension"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Asthma"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cancer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bronchitis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dementia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Osteoporosis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Epilepsy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stroke",
+                                "synonyms": [
+                                    "Strokes"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diabetes"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "DietType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Vegetarian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Indian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Muslim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chinese"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Western"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "StartRounding",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "questionOne",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "questionTwo",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "DeletePatientIntent",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.743364639668"
+                    },
+                    "slots": [
+                        {
+                            "name": "fullname",
+                            "type": "AMAZON.US_FIRST_NAME",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.PhoneNumber",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "OneTimePinSlot",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "SignInIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "fullname",
+                            "type": "AMAZON.US_FIRST_NAME",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.PhoneNumber",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "AddPatientIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "language",
+                            "type": "AMAZON.Language",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "fullname",
+                            "type": "AMAZON.US_FIRST_NAME",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.PhoneNumber",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "WhosInWard",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "ward",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "DeviceSettingsIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "choice",
+                            "type": "Choice",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "bed",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "ward",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "choiceTwo",
+                            "type": "Choice",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Confirm.Intent.1455542391490",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to start your rounding session"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.304769022701.1360170683405",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Who would you like to add to the patient list?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.304769022701.1360170683405",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "i heard {fullname} , are you sure you want to add {fullname} to the database"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.743364639668",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to delete {fullname} , this action is irreversable."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.186100110220.779321900521",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which account do you want to sign in to?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.617342547832.894895738162",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you want to add {fullname}"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.506900025771.830570922659",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your name?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1510192393235.1505930001045",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please Create a Username, This will be used for Login"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.1510192393235.1505930001045",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Username Set to {username} , are you sure?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.654578130653.723697433868",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please Provide a Ward Number"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.515468683163.1444631658866",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your Phone Number ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.17357044204.784070294087",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your Phone Number"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Tell me the Phone Number of the account you would like to sign in to"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.445666734222.806472989705",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "your name is {fullname} ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.175500979229.1497917111079",
+                "variations": [
+                    {
+                        "type": "SSML",
+                        "value": "<speak>How Many Glasses of Water Have you Drank since your last rounding session?</speak>"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.175500979229.162400598089",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "How many times have you gone to the restroom since your last rounding session?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.599747132715.938346642835",
+                "variations": [
+                    {
+                        "type": "SSML",
+                        "value": "<speak>What is your preferred language?-- <audio src='https://s3.amazonaws.com/healthbuddy/ZH/ZH_SignUp1.mp3'/>--</speak>"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1384597808344.922005209740",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your name?"
+                    }
+                ]
+            }
+        ]
+    }
+}
