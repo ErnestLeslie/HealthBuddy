@@ -4,5 +4,5 @@
 
 # Contributors
 <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
-<a href="https://github.com/NevainD">NevainD </a> (Gamification)
+<a href="https://github.com/NevainD">NevainD (Gamification)</a> 
 
