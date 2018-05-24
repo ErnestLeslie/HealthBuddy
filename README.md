@@ -8,6 +8,10 @@ What this Comprises Of: <br/>
   -  <a href="https://github.com/ErnestLeslie/HealthBuddy/blob/master/WebApplication/Zip%20File/HealthBuddyWebApp.zip?raw=true">*Download (.Zip File)*</a> <br/>
 
 # Contributors
-• <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
-• <a href="https://github.com/NevainD">NevainD (Gamification)</a> 
+- <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
+- <a href="https://github.com/NevainD">NevainD (Gamification)</a> 
 
+# Information
+<h3>Languages Used</h3>
+- CSharp (C#)
+- Python 3.6
