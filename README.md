@@ -12,6 +12,6 @@ What this Comprises Of: <br/>
 - <a href="https://github.com/NevainD">NevainD (Gamification)</a> 
 
 # Information
-<h5>Languages Used</h5>
+<h4>Languages Used</h4>
 - CSharp (C#) <br/>
 - Python 3.6 <br/>
