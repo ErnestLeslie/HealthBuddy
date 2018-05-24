@@ -5,6 +5,6 @@ What this Comprises Of: <br/>
 • Web Application
 
 # Contributors
-<a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
-<a href="https://github.com/NevainD">NevainD (Gamification)</a> 
+• <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
+• <a href="https://github.com/NevainD">NevainD (Gamification)</a> 
 
