@@ -1,3 +1,6 @@
 # HealthBuddy Gamification
-<h4>Interaction Model</h4>
-<h4>Lambda Functions</h4>
+<h4>Number Game Skill</h4>
+- *Interaction Model:* <br/>
+NumberGameSkill.json <br/>
+<h4>World Quiz Skill</h4>
+- WorldQuizSkill.json <br/>
