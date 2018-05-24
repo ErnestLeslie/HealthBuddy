@@ -22,7 +22,7 @@ What this Comprises Of: <br/>
 
 
 <b>Services Used: </b> <br/>
-- <a href="aws.amazon.com">Amazon Web Services</a> 
+- <a href="https://aws.amazon.com">Amazon Web Services</a> 
   - DynamoDB (No-SQL Database)
   - Lambda
   - Simple Notification Services (SNS)
