@@ -8,8 +8,10 @@ What this Comprises Of: <br/>
   -  <a href="https://github.com/ErnestLeslie/HealthBuddy/blob/master/WebApplication/Zip%20File/HealthBuddyWebApp.zip?raw=true">*Download (.Zip File)*</a> <br/>
 
 # Contributors
-- <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
-- <a href="https://github.com/NevainD">NevainD (Gamification)</a> 
+- <a href="https://github.com/ErnestLeslie">Ernest Arbuthnot-Leslie Y. (HealthBuddy) </a> <br/>
+  - ✉ ernestyeoyx@gmail.com
+- <a href="https://github.com/NevainD">Nevain S/O Doresamy (Gamification)</a> 
+  - ✉ Email
 
 # Information
 <b>Languages Used: </b> <br/>
