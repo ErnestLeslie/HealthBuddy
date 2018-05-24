@@ -3,6 +3,6 @@
 ">Alexa Skill</a> 
 
 # Contributors
-NevainD <br/>
-ErnestLeslie
+ErnestLeslie (HealthBuddy) <br/>
+NevainD (Gamification)
 
