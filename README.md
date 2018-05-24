@@ -5,7 +5,7 @@ What this Comprises Of: <br/>
 "><b>Alexa Skill</b></a> <br/>
 - **Web Application**<br/>
   -  *Source Code* <br/>
-  -  *Download (.Zip File)* <br/>
+  -  <a href="https://github.com/ErnestLeslie/HealthBuddy/blob/master/WebApplication/Zip%20File/HealthBuddyWebApp.zip?raw=true">*Download (.Zip File)*</a> <br/>
 
 # Contributors
 • <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
