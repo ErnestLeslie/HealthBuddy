@@ -3541,7 +3541,7 @@ def send_Feedback(event):
                 #Any SMTP Command To Encrypt as we are logging in
                 mail.starttls()
                 #Log in
-                mail.login('HealthBuddySG@gmail.com','ernestjesshealthbuddy')
+                mail.login('email@gmail.com','censored')
                 #Define Message
                 subject = "HealthBuddy Feedback/Report System"
                 
