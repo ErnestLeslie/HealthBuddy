@@ -3,6 +3,6 @@
 ">Alexa Skill</a> 
 
 # Contributors
-NevainD
+NevainD <br/>
 ErnestLeslie
 
