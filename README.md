@@ -4,7 +4,7 @@ What this Comprises Of: <br/>
 ">Alexa Skill</a> <br/>
 - Web Application <br/>
   -  Source Code <br/>
-  -  Download(.zip) <br/>
+  -  Download (Zip File) <br/>
 
 # Contributors
 • <a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
