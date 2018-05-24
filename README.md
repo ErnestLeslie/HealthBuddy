@@ -3,6 +3,6 @@
 ">Alexa Skill</a> 
 
 # Contributors
-ErnestLeslie (HealthBuddy) <br/>
-NevainD (Gamification)
+<a href="https://github.com/ErnestLeslie">ErnestLeslie (HealthBuddy) </a> <br/>
+<a href="https://github.com/NevainD">NevainD </a> (Gamification)
 
