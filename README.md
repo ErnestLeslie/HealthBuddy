@@ -9,10 +9,12 @@ What this Comprises Of: <br/>
 
 # Contributors
 - <a href="https://github.com/ErnestLeslie">Ernest Arbuthnot-Leslie Y. (HealthBuddy) </a> <br/>
-  - ✉ <email>
+  - ✉ email
+  - ✆ phone
 - <a href="https://github.com/NevainD">Nevain S/O Doresamy (Gamification)</a> 
-  - ✉ <Email>
-
+  - ✉ email
+  - ✆ phone
+  
 # Information
 <b>Languages Used: </b> <br/>
 - CSharp (C#) <br/>
