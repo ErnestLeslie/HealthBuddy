@@ -1,0 +1,81 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "world quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": [
+                        "pause",
+                        "pause quiz"
+                    ]
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": [
+                        "resume",
+                        "resume the quiz"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Choices",
+                            "type": "ChoiceType"
+                        }
+                    ],
+                    "samples": [
+                        "{Choices}",
+                        "the answer is {Choices}",
+                        "my choice is {Choices}"
+                    ]
+                },
+                {
+                    "name": "StartQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "Start Quiz",
+                        "Start a Quiz",
+                        "New Quiz",
+                        "Start"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ChoiceType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "A"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "B"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "C"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
