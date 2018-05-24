@@ -7,10 +7,10 @@ What this Comprises Of: <br/>
   -  <a href="https://github.com/ErnestLeslie/HealthBuddy/blob/master/WebApplication/Zip%20File/HealthBuddyWebApp.zip?raw=true" target="_blank">*Download (.Zip File)*</a> <br/> 
 
 # Contributors
-- <a href="https://github.com/ErnestLeslie" target="_blank">Ernest Arbuthnot-Leslie Y. (HealthBuddy) 🐍</a> <br/>
+- <a href="https://github.com/ErnestLeslie" target="_blank">🐍 Ernest Arbuthnot-Leslie Y. (HealthBuddy) </a> <br/>
   - ✉ email
   - ✆ phone
-- <a href="https://github.com/NevainD" target="_blank">Nevain S/O Doresamy (Gamification)🐺</a> 
+- <a href="https://github.com/NevainD" target="_blank">🐺 Nevain S/O Doresamy (Gamification)</a> 
   - ✉ email
   - ✆ phone
   
