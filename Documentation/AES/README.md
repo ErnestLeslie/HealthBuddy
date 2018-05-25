@@ -21,12 +21,12 @@ Voice AI is a fairly new innovation, such that most AIs, is only available in th
 
  
 <b> Aims </b> <br/>
-*Develop an Alexa skill that will help increase the efficiency of patient charting 
+- Develop an Alexa skill that will help increase the efficiency of patient charting 
  The skill must be able to take in answers of the patient and store it
-*Decrease the manpower required for patient charting
-Ensures that the nurses themselves do not need to go up to the patient to ask them and they can focus
-*Easy to use skill
-Cannot be overly complicated such that not everyone can use it
+- Decrease the manpower required for patient charting
+- Ensures that the nurses themselves do not need to go up to the patient to ask them and they can focus
+- Easy to use skill
+- Cannot be overly complicated such that not everyone can use it
 
 
 
@@ -37,17 +37,17 @@ Cannot be overly complicated such that not everyone can use it
 
  
 <b> Hardware used </b> <br/>
-PC in FYP Lab
-Amazon Alexa device (Amazon Echo)
+- PC in FYP Lab
+- Amazon Alexa device (Amazon Echo)
 
 <b> Development  Environment </b> <br/>
-Windows 10
-Alexa skills development Kit(Amazon)
-Lamda(Python 2.7)
-Visual Studios
+- Windows 10
+- Alexa skills development Kit(Amazon)
+- Lambda(Python 2.7 and Python 3.6)
+- Microsoft Visual Studio 2015 (ASP.NET Application)
 
 <b> Database Design </b> <br/>
-Using DynamoDB provided by Amazon Web Services. It allows us to store multiple values without the need of connecting the various tables.
+Using DynamoDB provided by Amazon Web Services, a NO-SQL Database. It allows us to store multiple values without the need of connecting the various tables.
 Simple and flexible database system makes the storing and displaying data on webapp simple and viable.
 
 
