@@ -17,23 +17,13 @@ To develop a conversational AI, which prompts the users to carry out their round
 Voice AI is a fairly new innovation, such that most AIs, is only available in the US and not available in Singapore yet. As a result, such solutions are not fully explored or not implemented yet. However, I believe that there is a future in Voice AI, as technology progresses. By implementing Voice AI. Patients no longer need to wait for assistance and it can also serve as an entertainment hub 24/7.
 
 
- 
-
- 
-<b> Aims </b> <br/>
+ <b> Aims </b> <br/>
 - Develop an Alexa skill that will help increase the efficiency of patient charting 
  The skill must be able to take in answers of the patient and store it
 - Decrease the manpower required for patient charting
 - Ensures that the nurses themselves do not need to go up to the patient to ask them and they can focus
 - Easy to use skill
-- Cannot be overly complicated such that not everyone can use it
-
-
-
-    
- 
-
- 
+- Cannot be overly complicated such that everyone can use it
 
  
 <b> Hardware used </b> <br/>
@@ -51,15 +41,16 @@ Using DynamoDB provided by Amazon Web Services, a NO-SQL Database. It allows us 
 Simple and flexible database system makes the storing and displaying data on webapp simple and viable.
 
 
-
 <b> External </b> <br/>
 Alexa development tutorials(https://developer.amazon.com/alexa) <br/>
 Code Academy <br/>
 DynamoDb( http://docs.aws.amazon.com/amazondynamodb) <br/>
 
-<b> Reflection </b> <br/>
-This FYPJ exposed me to a new type of technology which i think is what will begin the next stage of technology. Learning a new language
+
+<b> Personal Reflections </b> <br/>
+"This FYPJ exposed me to a new type of technology which i think is what will begin the next stage of technology. Learning a new language
 and using a new Developer platform was a good way to learn about how alexa works and how amazon provides all these services so that
-almsot anyone can use it to create and try out a new alexa skill. As someone who cans ay that he is weak in coding this project made me interested in learning more about this kind of technology. -Nevain D(154408J)
+almsot anyone can use it to create and try out a new alexa skill. As someone who cans ay that he is weak in coding this project made me interested in learning more about this kind of technology."
+<br/> <b>- Nevain D(154408J) </b>
 
  
