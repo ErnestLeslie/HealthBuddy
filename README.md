@@ -5,6 +5,7 @@ What this Comprises Of: <br/>
 - <a href="https://github.com/ErnestLeslie/HealthBuddy/tree/master/WebApplication" target="_blank"> **Web Application** </a> <br/>
   -  <a href="https://github.com/ErnestLeslie/HealthBuddy/tree/master/WebApplication/Source%20Codes/HealthBuddyWebApp" target="_blank">*Source Code* </a><br/>
   -  <a href="https://github.com/ErnestLeslie/HealthBuddy/blob/master/WebApplication/Zip%20File/HealthBuddyWebApp.zip?raw=true" target="_blank">*Download (.Zip File)*</a> <br/> 
+ - <a href="https://github.com/ErnestLeslie/HealthBuddy/blob/master/Documentation/AES/README.md">**AES**</a>
 
 # Contributors
 - <a href="https://github.com/ErnestLeslie" target="_blank">🐍 Ernest Arbuthnot-Leslie Y. (HealthBuddy) </a> <br/>
