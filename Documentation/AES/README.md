@@ -17,34 +17,34 @@ To develop a conversational AI, which prompts the users to carry out their round
 Voice AI is a fairly new innovation, such that most AIs, is only available in the US and not available in Singapore yet. As a result, such solutions are not fully explored or not implemented yet. However, I believe that there is a future in Voice AI, as technology progresses. By implementing Voice AI. Patients no longer need to wait for assistance and it can also serve as an entertainment hub 24/7.
 
 
- <b> Aims </b> <br/>
+ <b> Aims: </b> <br/>
 - Develop an Alexa skill that will help increase the efficiency of patient charting 
- The skill must be able to take in answers of the patient and store it
+- The skill must be able to take in responses of the patient and store it
 - Decrease the manpower required for patient charting
 - Ensures that the nurses themselves do not need to go up to the patient to ask them and they can focus
 - Easy to use skill
 - Cannot be overly complicated such that everyone can use it
 
  
-<b> Hardware used </b> <br/>
+<b> Hardware used: </b> <br/>
 - PC in FYP Lab
 - Amazon Alexa device (Amazon Echo)
 
-<b> Development  Environment </b> <br/>
+<b> Development  Environment: </b> <br/>
 - Windows 10
 - Alexa skills development Kit(Amazon)
 - Lambda(Python 2.7 and Python 3.6)
 - Microsoft Visual Studio 2015 (ASP.NET Application)
 
-<b> Database Design </b> <br/>
+<b> Database Design: </b> <br/>
 Using DynamoDB provided by Amazon Web Services, a NO-SQL Database. It allows us to store multiple values without the need of connecting the various tables.
 Simple and flexible database system makes the storing and displaying data on webapp simple and viable.
 
 
 <b> External </b> <br/>
-Alexa development tutorials(https://developer.amazon.com/alexa) <br/>
-Code Academy <br/>
-DynamoDb( http://docs.aws.amazon.com/amazondynamodb) <br/>
+- <a href="https://developer.amazon.com/alexa">Alexa Development Tutorials</a> <br/>
+- <a href="https://www.codecademy.com/">Codecademy </a><br/>
+- <a href="http://docs.aws.amazon.com/amazondynamodb">DynamoDB</a> <br/>
 
 
 <b> Personal Reflections </b> <br/>
