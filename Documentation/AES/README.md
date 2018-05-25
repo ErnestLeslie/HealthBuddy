@@ -1,15 +1,15 @@
 
  
 Name of Project: <b>HealthBuddy</b> <br/>
-Theme: Healthcare <br/>
-Target audience: Patients of The Hospital/Staff of Hospital <br/>
+Theme: <b> Healthcare </b> <br/>
+Target Audience: <b> Patients and Staff of The Hospital</b><br/>
 Opportunity Identified: <br/>
 Hospitals carry out rounding sessions for patients in their wards regularly, usually on an hourly basis. This requires manpower to go around to every bed in every ward one by one, asking the patients questions for the hospitals. Thus, I believe that there could be done efficiently and effectively through a conversational AI, and there can be additional features using an AI too, such as gamification, education etc.
 
 
 
 Proposed Idea/Platform: <br/>
-To develop a conversational AI, which prompts the users to carry out their rounding session, and users will only need to respond to the speaker, save time for the staff and lessen their workload. The AI will also allow users to understand more about their condition, how to prevent it or how to manage it once they are discharged, which helps reduce the overcrowding issues hospitals today face. Also allowing the users to play games which can help keep their mind active and thinking. 
+To develop a conversational AI, which prompts the users to carry out their rounding session, and users will only need to respond to the speaker, saving time for the staff and lessen their workload. The AI will also allow users to understand more about their condition, how to prevent it or how to manage it once they are discharged, which helps reduce the overcrowding issues hospitals today face. Also allowing the users to play games which can help keep their mind active and thinking. 
 Originality/Value: <br/>
 Voice AI is a fairly new innovation, such that most AIs, is only available in the US and not available in Singapore yet. As a result, such solutions are not fully explored or not implemented yet. However, I believe that there is a future in Voice AI, as technology progresses. By implementing Voice AI. Patients no longer need to wait for assistance and it can also serve as an entertainment hub 24/7.
 
