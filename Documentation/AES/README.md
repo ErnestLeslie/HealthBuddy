@@ -41,7 +41,7 @@ Using DynamoDB provided by Amazon Web Services, a NO-SQL Database. It allows us 
 Simple and flexible database system makes the storing and displaying data on webapp simple and viable.
 
 
-<b> External </b> <br/>
+<b> External: </b> <br/>
 - <a href="https://developer.amazon.com/alexa">Alexa Development Tutorials</a> <br/>
 - <a href="https://www.codecademy.com/">Codecademy </a><br/>
 - <a href="http://docs.aws.amazon.com/amazondynamodb">DynamoDB</a> <br/>
