@@ -1,6 +1,6 @@
 
  
-Name of Project: HealthBuddy <br/>
+Name of Project: <b>HealthBuddy</b> <br/>
 Theme: Healthcare <br/>
 Target audience: Patients of The Hospital/Staff of Hospital <br/>
 Opportunity Identified: <br/>
