@@ -11,9 +11,6 @@ What this Comprises Of: <br/>
 - <a href="https://github.com/ErnestLeslie" target="_blank">🐍 Ernest Arbuthnot-Leslie Y. (HealthBuddy) </a> <br/>
   - ✉ email
   - ✆ phone
-- <a href="https://github.com/NevainD" target="_blank">🐺 Nevain s/o Doresamy (Gamification)</a> 
-  - ✉ email
-  - ✆ phone
   
 # Information
 <b>Languages Used: </b> <br/>
